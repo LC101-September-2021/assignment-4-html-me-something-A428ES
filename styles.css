@@ -1,0 +1,84 @@
+/* Create three equal columns that floats next to each other */
+body{
+	font-family: Tahoma;
+	font-size: 14px;
+	color: white;
+	background-color: #FFFEEB;
+	margin: 8px;
+	display: block;
+}
+
+a:link, a:visited{
+	color: #B22222;
+}
+
+a:hover {
+	color: #00BFFF;
+}
+
+main, footer, #banner, #navigation{
+	width: 80%;
+	padding: 6px;
+	margin: auto;
+	position: relative;
+}
+
+#banner, footer{
+	background-color: #404040;
+	text-align: center;
+	color: white;
+	font-size: 48px;
+	font-family: Trebuchet MS;
+}
+
+#navigation{
+	background-color: #FFEBCD;
+	text-align: center;
+	color: #404040;
+}
+
+.aheader, article, #mainHeading{
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+	border: dotted 1px;
+}
+
+#mainHeading{
+	background-color: black;
+	text-align: right;
+	font-size: 24px;
+	color: red;
+}
+
+.aheader{
+	background-color: black;
+	text-align: right;
+	font-size: 24px;
+	color: white;
+}
+
+.funParagraph{
+	color: green;
+}
+
+
+article{
+	background-color: white;
+}
+
+main{
+	background-color: #FFFAC4;
+	color: #404040;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20%;
+	width: 30%;
+	border: 2px solid black;
+}
+
+
