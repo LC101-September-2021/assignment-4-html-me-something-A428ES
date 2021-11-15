@@ -2,18 +2,18 @@
 body{
 	font-family: Tahoma;
 	font-size: 14px;
-	color: white;
-	background-color: #FFFEEB;
+	color: #313131;
+	background-color: #222222;
 	margin: 8px;
 	display: block;
 }
 
 a:link, a:visited{
-	color: #B22222;
+	color: #78CBFF;
 }
 
 a:hover {
-	color: #00BFFF;
+	color: #FFFF9E;
 }
 
 main, footer, #banner, #navigation{
@@ -23,52 +23,55 @@ main, footer, #banner, #navigation{
 	position: relative;
 }
 
-#banner, footer{
-	background-color: black;
+.aheader, #navigation, #mainHeading{
+	background-color: #252525;
+	color: #FCFCFD;
 	text-align: center;
-	color: white;
-	font-size: 48px;
-	font-family: Trebuchet MS;
-}
-
-#navigation{
-	background-color: #FFEBCD;
-	text-align: center;
-	color: #404040;
 }
 
 .aheader, article, #mainHeading{
 	width: 95%;
 	margin: auto;
 	padding: 10px;
-	#border: dotted black 1px;
+}
+
+#banner{
+	background-color: #FFFAC4;
+	color: #252525;
+	font-size: 48px;
+	font-family: Trebuchet MS;
+	text-align: center;
+}
+
+#navigation{
+	background-color: #792222;
 }
 
 #mainHeading{
-	background-color: black;
-	text-align: right;
 	font-size: 24px;
 	color: red;
 }
 
 .aheader{
-	background-color: black;
 	font-size: 24px;
-	color: white;
 }
 
 .funParagraph{
 	color: green;
 }
 
-
 article{
-	background-color: white;
+	background-color: #FBFBFB;
 }
 
 main{
 	background-color: #FFFAC4;
-	color: #404040;
+}
+
+footer{
+	background-color: #792222;
+	color: #FCFCFD;
+	text-align: center;
 }
 
 img{
