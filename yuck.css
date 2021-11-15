@@ -1,0 +1,87 @@
+/* Create three equal columns that floats next to each other */
+body{
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #313131;
+	background-color: #222222;
+	margin: 8px;
+	display: block;
+}
+
+a:link, a:visited{
+	color: #78CBFF;
+}
+
+a:hover {
+	color: #FFFF9E;
+}
+
+
+main, header, footer{
+	width: 60%;
+	padding: 10px;
+	margin: auto;
+	position: relative;
+}
+
+.aheader, #navigation, #mainHeading{
+	background-color: #252525;
+	color: #FCFCFD;
+	text-align: center;
+}
+
+.aheader, article, #mainHeading{
+	width: 95%;
+	margin: auto;
+	padding: 10px;
+}
+
+#banner{
+	background-color: #FFFAC4;
+	color: #252525;
+	font-size: 48px;
+	font-family: Trebuchet MS;
+	text-align: center;
+}
+
+#navigation{
+	background-color: #792222;
+}
+
+#mainHeading{
+	font-size: 24px;
+	color: red;
+}
+
+.aheader{
+	font-size: 24px;
+}
+
+.funParagraph{
+	color: green;
+}
+section{
+	margin: 20px;
+}
+article{
+	background-color: #FBFBFB;
+}
+
+main{
+	background-color: #FFFAC4;
+}
+
+footer{
+	background-color: #792222;
+	color: #FCFCFD;
+	text-align: center;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20%;
+	width: 30%;
+	border: 2px solid black;
+}
