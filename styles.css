@@ -14,14 +14,10 @@ main{
 	background-color: #FFFAC4;
 }
 
-article{
+section{
 	width: 95%;
 	margin: auto;
 	padding: 10px;
-}
-
-section{
-	padding: 5px;
 }
 
 img{
