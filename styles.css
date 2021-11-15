@@ -9,7 +9,7 @@ body{
 }
 
 main{
-	width: 60%;
+	width: 75%;
 	margin: auto;
 	background-color: #FFFAC4;
 }
@@ -78,6 +78,6 @@ a:hover {
 }
 
 #closer, #navigation, #banner{
-	width: 60%;
+	width: 75%;
 	margin: auto;
 }
