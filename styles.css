@@ -4,13 +4,14 @@ body{
 	font-size: 14px;
 	color: #313131;
 	background-color: #222222;
-	margin: 8px;
+	margin: 0 auto;
 	display: block;
+	width: 100%;
+	max-width: 1024px;
 }
 
 main{
-	width: 75%;
-	margin: auto;
+	width: 100%;
 	background-color: #FFFAC4;
 }
 
@@ -36,11 +37,15 @@ p{
 }
 
 a:link, a:visited{
-	color: #78CBFF;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 a:hover {
-	color: #FFFF9E;
+	color: #313131;
+	background-color: #FFFAC4;
 }
 
 .articleHeader{
@@ -67,17 +72,21 @@ a:hover {
 	font-size: 28px;
 	font-family: Trebuchet MS;
 	text-align: center;
-	padding: 10px;
 }
 
 #closer, #navigation{
 	background-color: #792222;
 	color: #FCFCFD;
 	text-align: center;
-	padding: 5px;
 }
 
 #closer, #navigation, #banner{
-	width: 75%;
-	margin: auto;
+	padding: 14px;
+}
+
+@media screen and (max-width: 780px) {
+	a:link {
+		font-size: 14px;
+		display: block;
+	}
 }
