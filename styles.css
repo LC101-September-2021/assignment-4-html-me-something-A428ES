@@ -4,14 +4,13 @@ body{
 	font-size: 14px;
 	color: #313131;
 	background-color: #222222;
-	margin: 0 auto;
+	margin: 8px;
 	display: block;
-	width: 100%;
-	max-width: 1024px;
 }
 
 main{
-	width: 100%;
+	max-width:1024px;
+	margin: auto;
 	background-color: #FFFAC4;
 }
 
